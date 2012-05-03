@@ -15,9 +15,9 @@ namespace Application.DatePicker.Solution3
                        {
                            role = "datepicker",
                            type = "date",
-                           data_date_format = "dd.mm.yy",
-                           data_min_date = string.Format("{0:dd.MM.yyyy}", MinDate),
-                           data_max_date = string.Format("{0:dd.MM.yyyy}", MaxDate),
+                           data_date_format = "mm/dd/yy",
+                           data_min_date = string.Format("{0:MM/dd/yyyy}", MinDate),
+                           data_max_date = string.Format("{0:MM/dd/yyyy}", MaxDate),
                        };
         }
     }
