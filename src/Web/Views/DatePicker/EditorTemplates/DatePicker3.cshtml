@@ -1,0 +1,4 @@
+﻿@using Application.DatePicker.Solution3
+@model DateTime?
+@{var settings = ViewData.ModelMetadata.GetAdditionalSettingOrCreateNew<DatePickerSettings>(); }
+@Html.TextBoxFor(_ => _, settings.ToHtmlAttributes())

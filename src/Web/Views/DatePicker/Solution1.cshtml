@@ -1,0 +1,15 @@
+﻿@model Application.DatePicker.Solution1.Form1
+<div>
+    <a href="@Url.Action("Index")">Домой</a>
+</div>
+<div>
+    @using(Html.BeginForm()) 
+    {
+        @Html.EditorForModel()
+        
+        <input type="submit"/>
+    }
+</div>
+<div>
+    <a href="@Url.Action("Index")">Домой</a>
+</div>

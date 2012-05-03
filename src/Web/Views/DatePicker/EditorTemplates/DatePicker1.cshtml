@@ -1,0 +1,13 @@
+﻿@using Microsoft.Web.Mvc
+@model DateTime?
+@Html.TextBox("")
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            var settings = {
+                //здесь стандартные настройки для datepicker
+            };
+            $('#@Html.IdForModel()').datepicker(settings);
+        });
+    })(jQuery);
+</script>

@@ -1,0 +1,25 @@
+﻿@model Application.DatePicker.Solution2.Form2
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            var settings = {
+                //здесь стандартные настройки для datepicker
+            };
+            $('input[role=datepicker]').datepicker(settings);
+        });
+    })(jQuery);
+</script>
+<div>
+    <a href="@Url.Action("Index")">Домой</a>
+</div>
+<div>
+    @using(Html.BeginForm()) 
+    {
+        @Html.EditorForModel()
+        
+        <input type="submit"/>
+    }
+</div>
+<div>
+    <a href="@Url.Action("Index")">Домой</a>
+</div>

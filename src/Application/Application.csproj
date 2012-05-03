@@ -50,6 +50,16 @@
     <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="DatePicker\DatePickerController.cs" />
+    <Compile Include="DatePicker\Solution1\Form1.cs" />
+    <Compile Include="DatePicker\Solution1\Form1Metadata.cs" />
+    <Compile Include="DatePicker\Solution2\Form2.cs" />
+    <Compile Include="DatePicker\Solution2\Form2Metadata.cs" />
+    <Compile Include="DatePicker\Solution3\DatePickerSettings.cs" />
+    <Compile Include="DatePicker\Solution3\Form3.cs" />
+    <Compile Include="DatePicker\Solution3\Form3Metadata.cs" />
+    <Compile Include="DatePicker\Solution3\ModelMetadataItemBuilderDatePickerExtensions.cs" />
+    <Compile Include="DatePicker\Solution3\ModelMetadataExtensions.cs" />
     <Compile Include="Home\HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +69,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

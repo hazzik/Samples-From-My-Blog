@@ -65,6 +65,9 @@
       <Private>True</Private>
       <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Web.Mvc">
+      <HintPath>..\..\packages\Mvc3Futures.3.0.20105.0\lib\Microsoft.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="MvcExtensions, Version=2.5.0.0, Culture=neutral, PublicKeyToken=ee6190c4449c24bc, processorArchitecture=MSIL">
       <HintPath>..\..\packages\MvcExtensions.2.5.0-rc8005\lib\net40\MvcExtensions.dll</HintPath>
     </Reference>
@@ -109,7 +112,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\RegisterRoutes.cs" />
-    <Compile Include="Infrastructure\RegisterBundles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +204,13 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Object.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Object.cshtml" />
+    <Content Include="Views\DatePicker\Index.cshtml" />
+    <Content Include="Views\DatePicker\Solution1.cshtml" />
+    <Content Include="Views\DatePicker\Solution2.cshtml" />
+    <Content Include="Views\DatePicker\Solution3.cshtml" />
+    <Content Include="Views\DatePicker\EditorTemplates\DatePicker1.cshtml" />
+    <Content Include="Views\DatePicker\EditorTemplates\DatePicker2.cshtml" />
+    <Content Include="Views\DatePicker\EditorTemplates\DatePicker3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />

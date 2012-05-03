@@ -1,0 +1,25 @@
+﻿@model Application.DatePicker.Solution3.Form3
+<script type="text/javascript">
+    (function ($) {
+        $(function () {
+            $('[role=datepicker]').each(function () {
+                var self = $(this);
+                self.datepicker(self.data());
+            });
+        });
+    })(jQuery);
+</script>
+<div>
+    <a href="@Url.Action("Index")">Домой</a>
+</div>
+<div>
+    @using(Html.BeginForm()) 
+    {
+        @Html.EditorForModel()
+        
+        <input type="submit"/>
+    }
+</div>
+<div>
+    <a href="@Url.Action("Index")">Домой</a>
+</div>
