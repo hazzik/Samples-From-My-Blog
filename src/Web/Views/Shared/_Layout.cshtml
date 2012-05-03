@@ -1,0 +1,15 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title>
+        <link href="@BundleTable.Bundles.ResolveBundleUrl("~/CommonStyles")" rel="stylesheet" type="text/css" />
+        <script src="@BundleTable.Bundles.ResolveBundleUrl("~/Modernizr")" type="text/javascript"> </script>
+    </head>
+
+    <body>
+        @RenderBody()
+        <script src="@BundleTable.Bundles.ResolveBundleUrl("~/CommonScripts")" type="text/javascript"></script>
+    </body>
+</html>
