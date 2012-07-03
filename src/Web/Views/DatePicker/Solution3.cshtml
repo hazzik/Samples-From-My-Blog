@@ -3,6 +3,7 @@
     (function ($) {
         $(function () {
             $('[role=datepicker]').each(function () {
+                var self = $(this);
                 self.datepicker(self.data());
             });
         });
