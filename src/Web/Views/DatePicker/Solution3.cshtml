@@ -2,8 +2,7 @@
 <script type="text/javascript">
     (function ($) {
         $(function () {
-            $('[role=datepicker],[type=date]').each(function () {
-                if (this.type === 'date') return;
+            $('[role=datepicker]').each(function () {
                 self.datepicker(self.data());
             });
         });
